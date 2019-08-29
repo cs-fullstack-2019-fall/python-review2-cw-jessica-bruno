@@ -9,7 +9,8 @@ def main():
                               "3. Delete a task.\n"
                               "0. To quit the program\n"))
         if userInput == 1:
-            print("blank")
+            for arrayT in task_array:
+                print(arrayT)
         elif userInput == 2:
             taskInput = input("Enter a new task ")
             # taskInput = str(task_array) + taskInput
@@ -18,3 +19,20 @@ def main():
         elif userInput == 3:
             print("DeleteTask")
 main()
+
+
+# To list all items in an array:
+# ```python
+# for itemInArray in arrayOfTasks:
+# ```
+# To add an item to an array
+# ```python
+# arrayOfTasks.append(newTask)
+# ```
+# To check if an item is in an array
+# ```python
+# if deleteTask in arrayOfTasks:
+# ```
+# To delete a task
+# ```python
+# arrayOfTasks.remove(deleteTask)
