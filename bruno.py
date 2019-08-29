@@ -13,11 +13,12 @@ def main():
                 print(arrayT)
         elif userInput == 2:
             taskInput = input("Enter a new task ")
-            # taskInput = str(task_array) + taskInput
-            print(str(task_array) + str(taskInput))
+            task_array.append(taskInput)
             print("Success task added ")
         elif userInput == 3:
-            print("DeleteTask")
+            taskInput = input("Enter a task to delete ")
+            task_array.remove(taskInput)
+            print("Task Deleted")
 main()
 
 
