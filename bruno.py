@@ -10,7 +10,6 @@
 # 2. Add a task to the list.
 # 3. Delete a task.
 # 0. To quit the program
-print("Congratulations! You're running [YOUR NAME]'s Task List program.")
 
 # class Task:
 #     def __init__(self, task):
