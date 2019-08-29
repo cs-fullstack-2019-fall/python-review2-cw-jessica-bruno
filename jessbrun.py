@@ -11,11 +11,27 @@
 # 0. To quit the program
 
 class Task:
-    def __init__(self, task, userName):
+    def __init__(self, task):
         self.task = task
-        self.userName = userName
+
+    def allTasks(self):
+        print(f"{self.task}")
+
+    def addNewTask(self, newT):
+        self.task = newT
+        return newT
 
 
     userName = input("Enter your name: ")
     print(f"Congratulations! You are running {userName}'s Task List program.")
 
+newTask = Task("1. Wash Car")
+newTask.allTasks()
+
+newTask1 = Task("2. Clean Floors")
+newTask1.allTasks()
+
+newTask3 = Task("3. Walk Dogs")
+newTask3.allTasks()
+
+newTask.addNewTask("4. Wash Clothes")
