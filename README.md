@@ -1,3 +1,4 @@
+See bruno.p for comments(!!). I looks like all of your work in the in Bruno file. Consider breaking up the tasks and working in seperate files then import into your main file. You also need more comments in your code. Score : 4
 # python-review2-cw
 
 Create a task list. A user is presented with the text below. Let them select an option to list all of their tasks, add a task to their list, delete a task, or quit the program. Make each option a different function in your program. Do <strong>NOT</strong> use Google. Do <strong>NOT</strong> use other students. Try to do this on your own.

@@ -3,6 +3,7 @@ task_array = ["Clean house", "wash dog", "clean car"]
 def main():
     userInput = print("What would you like to do next? ")
     taskInput = ''
+    # !! : you have an error in your while loop, I have to enter 0 twice to quit 
     while userInput != 0:
         userInput = int(input("1. List all tasks.\n"
                               "2. Add a task to the list.\n"
