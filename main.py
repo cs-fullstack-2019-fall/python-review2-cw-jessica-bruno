@@ -1,3 +1,3 @@
-from bruno.py import main
+from bruno import main
 
 main()

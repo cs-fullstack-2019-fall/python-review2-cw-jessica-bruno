@@ -21,6 +21,10 @@ class Task:
     def __init__(self, task):
         self.task = task
 
+    def add_task(self, newTask):
+        self.task = self.task + ", " + newTask
+        return newTask
+
     def allTasks(self):
         print(f"{self.task}")
 
@@ -36,6 +40,7 @@ def main():
                               "3. Delete a task.\n"
                               "0. To quit the program\n"))
         if userInput == 1:
+            newTask1.add_task("Run the street")
             newTask1.allTasks()
         elif userInput == 2:
             print("Add a task to the list")
