@@ -34,13 +34,15 @@ newTask3 = Task("3. Walk Dogs")
 
 def main():
     userInput = print("What would you like to do next? ")
+    taskInput = ''
     while userInput != 0:
         userInput = int(input("1. List all tasks.\n"
                               "2. Add a task to the list.\n"
                               "3. Delete a task.\n"
                               "0. To quit the program\n"))
         if userInput == 1:
-            newTask1.add_task("Run the street")
+            taskInput = input("Enter a new task ")
+            newTask1.add_task(taskInput)
             newTask1.allTasks()
         elif userInput == 2:
             print("Add a task to the list")
