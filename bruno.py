@@ -20,20 +20,3 @@ def main():
             task_array.remove(taskInput)
             print("Task Deleted")
 main()
-
-
-# To list all items in an array:
-# ```python
-# for itemInArray in arrayOfTasks:
-# ```
-# To add an item to an array
-# ```python
-# arrayOfTasks.append(newTask)
-# ```
-# To check if an item is in an array
-# ```python
-# if deleteTask in arrayOfTasks:
-# ```
-# To delete a task
-# ```python
-# arrayOfTasks.remove(deleteTask)
